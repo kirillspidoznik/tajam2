@@ -76,6 +76,7 @@ ul{
 	text-transform: uppercase;
 	padding: 10px 20px;
 	color:#00e0d0;
+	
 
 }
 
@@ -86,13 +87,43 @@ ul{
 	transition: .2s;
 }
 
-.slider__item{
+/* .slider__item{
 	border-radius: 100px;
 	border: 1px solid white;
-}
-.story{
+} */
 
+.slider__container{
+	width: 140px;
+	margin: 0 auto;
+	margin-top: 125px;
 }
+
+.slider{
+	
+	display: flex;
+	margin: 0 auto;
+	
+}
+
+.slider__item{
+	margin-right: 5px;
+	width: 8px;
+	height: 8px;
+	background: none;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	border: 2px solid white;
+}
+
+.slider__item:hover{
+	background: #04bbae;
+	border-color: #04bbae;
+	transition: .2s;
+}
+
+/* main */
+
 .story__container{
 	padding-top: 60px;
 		margin: 0 auto;
